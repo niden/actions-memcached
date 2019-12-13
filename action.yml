@@ -1,8 +1,9 @@
 name: 'Memcached Service'
 description: 'Memcached docker container for GitHub Actions based on Alpine'
+author: 'niden'
 branding:
-  icon: 'award'
-  color: 'blue'
+  icon: 'database'
+  color: 'red'
 runs:
   using: 'docker'
   image: 'Dockerfile'
