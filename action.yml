@@ -1,0 +1,5 @@
+name: 'Hello World'
+description: 'Memcached docker container for GitHub Actions based on Alpine'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
