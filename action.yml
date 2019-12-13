@@ -1,4 +1,4 @@
-name: 'Hello World'
+name: 'Memcached Service'
 description: 'Memcached docker container for GitHub Actions based on Alpine'
 runs:
   using: 'docker'
