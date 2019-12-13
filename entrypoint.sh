@@ -1,9 +1,7 @@
-#!/bin/sh -l
-set -e
+#!/bin/sh
 
-# first arg is `-f` or `--some-option`
-#if [ "${1#-}" != "$1" ]; then
-#	set -- memcached "$@"
-#fi
+docker_run="docker run"
+docker_run="$docker_run -d -p 11211:11211 niden/memcached:v4"
 
-#exec "$@"
+sh -c "$docker_run"
+
